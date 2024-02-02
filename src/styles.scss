@@ -1,4 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+/* Ovverride here bootstrap variables or declare new */
+@import "variables";
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font-size: 1.6rem;
+}
